@@ -32,6 +32,11 @@ define( 'SJNEWS_EXTERNAL_LINK_TITLE', 'Visit Website' );
 /* That's all, stop editing! Happy publishing. */
 
 
+== Installation ==
+
+If downloading from github then you will need to unzip the file and rename the folder to sjnews before moving it to your plugins directory.
+
+
 == Changelog ==
 
 = 1.0.0 =
