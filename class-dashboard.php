@@ -29,7 +29,7 @@ class Dashboard {
 	 * Constructor.
 	 */
 	public function __construct() {
-		$this->config = include SJNEWS_PLUGIN_DIR . 'class-config.php';
+		$this->config = include SJNEWS_PLUGIN_DIR . 'config.php';
 
 		add_action( 'wp_dashboard_setup', array( $this, 'sjnews_add_dashboard_widget' ) );
 	}

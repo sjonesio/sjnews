@@ -29,7 +29,7 @@ class Articles {
 	 * Constructor.
 	 */
 	public function __construct() {
-		self::$config = include SJNEWS_PLUGIN_DIR . 'class-config.php';
+		self::$config = include SJNEWS_PLUGIN_DIR . 'config.php';
 	}
 
 	/**
